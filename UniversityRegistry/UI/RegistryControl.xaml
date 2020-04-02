@@ -13,5 +13,8 @@
         </Grid.ColumnDefinitions>
         <local:PersonList Grid.Column="0"/>
         <local:PersonControl Grid.Column="1"/>
+        <local:PersonControl x:Name="pcDetails" Grid.Column="1"/>
+        <local:PersonList Grid.Column="0" SelectionChanged="OnSelectionChanged"/>
+
     </Grid>
 </UserControl>
