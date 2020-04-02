@@ -9,8 +9,8 @@
     <Border Padding="10">
         <StackPanel>
             <TextBlock FontSize="18">Personal Details</TextBlock>
-            
-            <Label Content="First Name"/>
+
+            <Label Content="_First Name" Target="{Binding ElementName=txtFirstName}"/>
             <TextBox Name="txtFirstName" Text="{Binding Path=FirstName}"/>
 
             <Label Content="Last Name"/>

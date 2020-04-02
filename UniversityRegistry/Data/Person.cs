@@ -55,11 +55,7 @@ namespace UniversityRegistry.Data
         /// </summary>
         public bool Active { get; set; }
 
-        /// <summary>
-        /// The person's role
-        /// </summary>
-        public Role Role { get; set; }
-        
+
         /// <summary>
         /// Creates a new user, assigning them an ID
         /// </summary>
